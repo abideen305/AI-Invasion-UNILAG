@@ -1,0 +1,39 @@
+
+Rank	State	Population
+1	Kano State	9,401,288
+2	Lagos State	9,113,605
+3	Kaduna State	6,113,503
+4	Katsina State	5,801,584
+5	Oyo State	5,580,894
+6	Rivers State	5,198,605
+7	Bauchi State	4,653,066
+8	Jigawa State	4,361,002
+9	Benue State	4,253,641
+10	Anambra State	4,177,828
+11	Borno State	4,171,104
+12	Delta State	4,112,445
+13	Niger State	3,954,772
+14	Imo State	3,927,563
+15	Akwa Ibom State	3,178,950
+16	Ogun State	3,751,140
+17	Sokoto State	3,702,676
+18	Ondo State	3,460,877
+19	Osun State	3,416,959
+20	Kogi State	3,314,043
+21	Zamfara State	3,278,873
+22	Enugu State	3,267,837
+23	Kebbi State	3,256,541
+24	Edo State	3,233,366
+25	Plateau State	3,206,531
+26	Adamawa State	3,178,950
+27	Cross River State	2,892,988
+28	Abia State	2,845,380
+29	Ekiti State	2,398,957
+30	Kwara State	2,365,353
+31	Gombe State	2,365,040
+32	Yobe State	2,321,339
+33	Taraba State	2,294,800
+34	Ebonyi State	2,176,947
+35	Nasarawa State	1,869,377
+36	Bayelsa State	1,704,515
+–	Federal Capital Territory	1,405,201
