@@ -60,45 +60,72 @@
       
     </header>
     <!-- //header -->
-
-    <div class="w3-container">
-  <p>Note: 1 represents females while 0 represents males</p>
-  <form class="w3-container w3-card-2" action="{{ url_for('predict')}}"method="POST" style="width: 100%">
-  <h2 class="w3-text-blue w3-center w3-text-teal" >Input Form</h2>
-  
-  <p>
-  <label class="w3-text-teal"><b>Gender</b></label>
-  <input id="id1" class="w3-input w3-border" name="Gender" type="number" placeholder="1:female 0:male" required="required" max="1" min="0"></p>
-  <label class="w3-text-teal"><b>Age</b></label>
-  <input id="id1" class="w3-input w3-border" name="Age" type="number" placeholder="Age" required="required"></p>
-  <p>
-  <label class="w3-text-teal"><b>Estimated Salary</b></label>
-  <input id="id1" class="w3-input w3-border" name="Estimated Salary" placeholder="Salary" required="required" type="number" ></p>
-
-
-
-  <button onclick="myFunction()" type="submit" class="btn btn-primary btn-block btn-large w3-text-teal w3-border-teal" style="width:15%;">Make your prediction</button>
-</form>
+<div class = "container-fluid">
+    
+    <div class="jumbotron">
+  <h1 class="display-4">Welcome to this website</h1>
+  <p class="lead">The manager of an insurance company is unhappy with the low sales volume of a specific kind of insurance. So we built this model to help them to be able to predcit customer that is likey to purchase or not and help them to arrived as an informed decison</p>
+  <hr class="my-4">
+  <p>This is a program tagged AI Invasion hosted by Data Science Nigeria with NITDA hub, UNILAG. The session was led by Abideen Muhammed</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
 </div>
-<br>
+    
+    </div>
+
+<section>
+    
+<div class="pred">
+    
+    <h3> Make your prediction here </h3>
+  <p>Note: 1 represents females while 0 represents males</p>
+  <form class="w3-container w3-card-2" action="{{ url_for('predict')}}"method="POST" style="width: 50%">
+      
+    
+      <div class="row g-3">
+          <div class="col">
+  
+  <label class="w3-text-teal"><b>Gender</b></label>
+  <input id="id1" class="w3-input w3-border" name="Gender" type="number" placeholder="1:female 0:male" required="required" max="1" min="0">
+          </div>
+          <div class="col">
+  <label class="w3-text-teal"><b>Age</b></label>
+  <input id="id1" class="w3-input w3-border" name="Age" type="number" placeholder="Age" required="required">
+          </div>
+          
+          <div class="col">
+  <label class="w3-text-teal"><b>Estimated Salary</b></label>
+  <input id="id1" class="w3-input w3-border" name="Estimated Salary" placeholder="Salary" required="required" type="number" >
+          </div>
+
+
+  <button onclick="myFunction()" type="submit" class="btn btn-primary btn-block btn-large w3-text-teal w3-border-teal" style="width:25%;">Make your prediction</button>
+      </div>
+</form>
+    </div>
+
 
   <div class="w3-card-4 w3-teal" >
   <h2>{{ prediction_text }}</h2></div>
 </div>
+        
+</div>    
+</section>
     
+
+
+
+
+<footer>
     
-    
-
-	<button> <a href="stories"> Photo Speaks  </a> </button>
-
-
-
 <!-- copyright -->
 <div class="cpy-right text-center">
     <p class="text-bl">© June 2021 AI Invasion. All rights reserved | Design by  <a href='https://github.com/abideen305'> Abideen Muhammed </a> </p>
 </div>
 <!-- //copyright -->
 
+</footer>
 
 <!-- Boostrap -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
